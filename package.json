@@ -16,6 +16,18 @@
     "nodemon": "^2.0.18"
   },
   "devDependencies": {
-    "mongoose-unique-validator": "^3.1.0"
-  }
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "prettier": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xFreshu/logoipsum-backend.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/xFreshu/logoipsum-backend/issues"
+  },
+  "homepage": "https://github.com/xFreshu/logoipsum-backend#readme"
 }

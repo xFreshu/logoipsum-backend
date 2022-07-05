@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const uniqueValidator = require("mongoose-unique-validator");
+const mongoose = require('mongoose')
+const uniqueValidator = require('mongoose-unique-validator')
 
 // type QuestionProps = {
 
@@ -15,38 +15,37 @@ const uniqueValidator = require("mongoose-unique-validator");
 //     upvote: string
 //     downvote: string
 
-
 const userQuestionSchema = new mongoose.Schema({
-  title: {
-    type: String,
-    required: true,
-  },
-  description: {
-    type: String,
-    required: true,
-  },
-  upvote: {
-    type: Number,
-    default: 0,
-  },
-  downvote: {
-    type: Number,
-    default: 0,
-  },
-  user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
-    required: true,
-  },
-  answers: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Answer",
-      required: true,
+    title: {
+        type: String,
+        required: true,
     },
-  ],
-});
+    description: {
+        type: String,
+        required: true,
+    },
+    upvote: {
+        type: Number,
+        default: 0,
+    },
+    downvote: {
+        type: Number,
+        default: 0,
+    },
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+        required: true,
+    },
+    answers: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Answer',
+            required: true,
+        },
+    ],
+})
 
-userQuestionSchema.plugin(uniqueValidator);
+userQuestionSchema.plugin(uniqueValidator)
 
-module.exports = mongoose.model("UserQuestion", userQuestionSchema);
+module.exports = mongoose.model('UserQuestion', userQuestionSchema)
