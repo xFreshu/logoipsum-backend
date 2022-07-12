@@ -20,6 +20,17 @@ const userSchema = new Schema({
         minLength: 3,
         unique: true,
     },
+    image: {
+        type: String,
+        default: 'https://i.pravatar.cc/300',
+        required: true,
+    },
+    questions: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Question',
+        },
+    ],
 })
 
 userSchema.plugin(uniqueValidator)

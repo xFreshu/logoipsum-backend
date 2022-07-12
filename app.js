@@ -2,7 +2,10 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose').default
 const userRoutes = require('./routes/user-routes')
+const bodyParser = require("express");
 const app = express()
+
+app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
