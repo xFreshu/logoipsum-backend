@@ -25,9 +25,9 @@ const login = async (req, res, next) => {
 }
 
 const signup = async (req, res, next) => {
-    const { name, email, password } = req.body
+    const { login, email, password } = req.body
     const newUser = new Users({
-        name,
+        login,
         email,
         password,
         image: 'https://i.pravatar.cc/300',
