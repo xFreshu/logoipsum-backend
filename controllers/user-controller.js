@@ -1,4 +1,5 @@
 const Users = require('../models/user')
+const HttpError = require('../models/http-error')
 
 const getUsers = async (req, res, next) => {
     let users
@@ -11,17 +12,25 @@ const getUsers = async (req, res, next) => {
 }
 
 const login = async (req, res, next) => {
-    const { email, password } = req.body
+    const { login, password } = req.body
     let user
     try {
-        user = await Users.findOne({ email })
+        user = await Users.findOne({ login })
     } catch (err) {
-        return next(err)
+        const error = new HttpError('Błędne logowanie, spróbuj ponownie', 500)
+        return next(error)
     }
     if (!user || user.password !== password) {
-        return next({ status: 401, message: 'Invalid email or password' })
+        const error = new HttpError(
+            'Invalid credentials, could not log you in.',
+            401
+        )
+        return next(error)
     }
-    res.json({ user: user.toObject({ getters: true }) })
+    res.json({
+        message: 'Logged in!',
+        user: user.toObject({ getters: true }),
+    })
 }
 
 const signup = async (req, res, next) => {
