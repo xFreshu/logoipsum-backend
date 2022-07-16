@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da692632-4727-426c-82ff-f73e08a245a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/topics-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/topics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/topics-routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/questions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/questions-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/organisms/CategoriesContainer/CategoriesContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/organisms/CategoriesContainer/CategoriesContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/context/UserProvider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/context/UserProvider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthLogin/AuthLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthLogin/AuthLogin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/answers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/userQuestions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/topics-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/topics-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/topics.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/topics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/topics-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/topics-routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +51,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\xfreshu\\Desktop\\REPOSITORY\\logoipsum-backend\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\xfreshu\\Desktop\\REPOSITORY\\Logoipsum\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -92,7 +102,11 @@
       <workItem from="1657471129206" duration="993000" />
       <workItem from="1657602411104" duration="5999000" />
       <workItem from="1657634527077" duration="4595000" />
-      <workItem from="1657782214696" duration="6949000" />
+      <workItem from="1657782214696" duration="8245000" />
+      <workItem from="1657868599440" duration="8650000" />
+      <workItem from="1657957100076" duration="2392000" />
+      <workItem from="1657975303773" duration="1588000" />
+      <workItem from="1657985467253" duration="4588000" />
     </task>
     <servers />
   </component>
@@ -109,5 +123,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

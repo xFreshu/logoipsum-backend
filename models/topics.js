@@ -10,18 +10,11 @@ const topicsSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    topics: [
+    usersQuestions: [
         {
-            // type: mongoose.Schema.Types.ObjectId,
-            // ref: 'Topic',
-            header: {
-                type: String,
-                required: true,
-            },
-            body: {
-                type: String,
-                required: true,
-            },
+            type: mongoose.Schema.Types.ObjectId,
+            required: true,
+            ref: 'questions',
         },
     ],
 })

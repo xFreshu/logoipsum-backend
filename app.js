@@ -3,6 +3,7 @@ const express = require('express')
 const mongoose = require('mongoose').default
 const userRoutes = require('./routes/user-routes')
 const topicsRoutes = require('./routes/topics-routes')
+const questionsRoutes = require('./routes/questions-routes')
 const bodyParser = require('express')
 const app = express()
 
@@ -25,6 +26,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/users', userRoutes)
 app.use('/api/topics', topicsRoutes)
+app.use('/api/questions', questionsRoutes)
 
 mongoose
     .connect(process.env.MONGODB_URI)

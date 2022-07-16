@@ -12,4 +12,16 @@ const getTopics = async (req, res, next) => {
     })
 }
 
+const getTopicById = async (req, res, next) => {
+    const id = req.params.id
+    let topic
+    try {
+        topic = await Topics.findById(id)
+    } catch (err) {
+        return next(err)
+    }
+    res.json(topic.toObject({ getters: true }))
+}
+
 exports.getTopics = getTopics
+exports.getTopicById = getTopicById
