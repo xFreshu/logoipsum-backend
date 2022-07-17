@@ -1,4 +1,4 @@
-const Users = require('../models/user')
+const Users = require('../models/users')
 const HttpError = require('../models/http-error')
 
 const getUsers = async (req, res, next) => {

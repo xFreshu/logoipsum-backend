@@ -14,7 +14,7 @@ const topicsSchema = new mongoose.Schema({
         {
             type: mongoose.Schema.Types.ObjectId,
             required: true,
-            ref: 'questions',
+            ref: 'Questions',
         },
     ],
 })
