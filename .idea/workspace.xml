@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da692632-4727-426c-82ff-f73e08a245a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/models/answers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/organisms/CategoriesContainer/CategoriesContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/organisms/CategoriesContainer/CategoriesContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Logoipsum/src/context/UserProvider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/context/UserProvider.jsx" afterDir="false" />
@@ -14,10 +15,7 @@
       <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/questions-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/user-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/topics.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/topics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/questions-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/questions-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/questions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/xfreshu/Desktop/REPOSITORY/logoipsum-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\xfreshu\\Desktop\\REPOSITORY\\logoipsum-backend\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "ts.external.directory.path": "C:\\Users\\xfreshu\\Desktop\\REPOSITORY\\Logoipsum\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/xfreshu/Desktop/REPOSITORY/logoipsum-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\xfreshu\\Desktop\\REPOSITORY\\logoipsum-backend\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\xfreshu\\Desktop\\REPOSITORY\\Logoipsum\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xfreshu\Desktop\REPOSITORY\logoipsum-backend\models" />
@@ -105,7 +103,8 @@
       <workItem from="1657975303773" duration="1588000" />
       <workItem from="1657985467253" duration="4788000" />
       <workItem from="1657995487977" duration="8000" />
-      <workItem from="1658036807344" duration="5325000" />
+      <workItem from="1658036807344" duration="6162000" />
+      <workItem from="1658152471834" duration="1311000" />
     </task>
     <servers />
   </component>

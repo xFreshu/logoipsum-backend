@@ -25,8 +25,6 @@ const createQuestion = async (req, res, next) => {
         body,
         creator,
         topic,
-        upvotes: 0,
-        downvotes: 0,
     })
 
     let user

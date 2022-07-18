@@ -20,6 +20,20 @@ const questionsSchema = new mongoose.Schema({
         ref: 'Users',
         required: true,
     },
+    upvotes: {
+        type: Number,
+        default: 0,
+    },
+    downvotes: {
+        type: Number,
+        default: 0,
+    },
+    answers: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Answers',
+        },
+    ],
 })
 
 questionsSchema.plugin(uniqueValidator)
