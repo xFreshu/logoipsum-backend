@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da692632-4727-426c-82ff-f73e08a245a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/models/answers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/organisms/CategoriesContainer/CategoriesContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/organisms/CategoriesContainer/CategoriesContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/context/UserProvider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/context/UserProvider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthLogin/AuthLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthLogin/AuthLogin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Home/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/questions-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/topics-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/topics-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/topics-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/topics-routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +97,8 @@
       <workItem from="1657985467253" duration="4788000" />
       <workItem from="1657995487977" duration="8000" />
       <workItem from="1658036807344" duration="6162000" />
-      <workItem from="1658152471834" duration="1311000" />
+      <workItem from="1658152471834" duration="3705000" />
+      <workItem from="1658207054635" duration="6733000" />
     </task>
     <servers />
   </component>

@@ -4,4 +4,5 @@ const topicsController = require('../controllers/topics-controller')
 
 router.get('/', topicsController.getTopics) // get all topics
 router.get('/:id', topicsController.getTopicById) // get topic by id
+router.get('/topicId/:id', topicsController.getTopicsByTopicId)
 module.exports = router

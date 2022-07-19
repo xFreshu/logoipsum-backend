@@ -1,4 +1,5 @@
 const Topics = require('../models/topics')
+const Question = require('../models/questions')
 
 const getTopics = async (req, res, next) => {
     let topics
@@ -23,5 +24,25 @@ const getTopicById = async (req, res, next) => {
     res.json(topic.toObject({ getters: true }))
 }
 
+const getTopicsByTopicId = async (req, res, next) => {
+    const id = req.params.id
+
+    let questions
+    try {
+        questions = await Question.find({ usersQuestion: id })
+    } catch (err) {
+        console.log(err)
+    }
+    // if (!questions || questions.length === 0) {
+    //     return next(res('l'))
+    // }
+    res.json({
+        questions: questions.map((question) =>
+            question.toObject({ getters: true })
+        ),
+    })
+}
+
 exports.getTopics = getTopics
 exports.getTopicById = getTopicById
+exports.getTopicsByTopicId = getTopicsByTopicId
