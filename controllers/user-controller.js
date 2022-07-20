@@ -11,6 +11,17 @@ const getUsers = async (req, res, next) => {
     res.json({ users: users.map((user) => user.toObject({ getters: true })) })
 }
 
+const getUserById = async (req, res, next) => {
+    const id = req.params.id
+    let user
+    try {
+        user = await Users.findById(id)
+    } catch (err) {
+        return next(err)
+    }
+    res.json({ user: user.toObject({ getters: true }) })
+}
+
 const login = async (req, res, next) => {
     const { login, password } = req.body
     let user
@@ -50,6 +61,8 @@ const signup = async (req, res, next) => {
     }
     res.json({ user: user.toObject({ getters: true }) })
 }
+
 exports.getUsers = getUsers
+exports.getUserById = getUserById
 exports.login = login
 exports.signup = signup

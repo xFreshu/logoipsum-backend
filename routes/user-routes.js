@@ -5,6 +5,8 @@ const { check } = require('express-validator')
 
 router.get('/', userController.getUsers) // get all users
 
+router.get('/:id', userController.getUserById) // get user by id
+
 router.post(
     '/signup',
     [
