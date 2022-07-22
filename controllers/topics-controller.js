@@ -26,18 +26,20 @@ const getTopicById = async (req, res, next) => {
 
 const getTopicsByTopicId = async (req, res, next) => {
     const id = req.params.id
-
+    console.log(id)
     let questions
     try {
-        questions = await Question.find({ usersQuestion: id })
+        questions = await Question.find({ id })
     } catch (err) {
         console.log(err)
     }
-    // if (!questions || questions.length === 0) {
-    //     return next(res('l'))
-    // }
+
+    const specificQuestion = questions.filter(
+        (question) => question.topic.toString() === id
+    )
+
     res.json({
-        questions: questions.map((question) =>
+        questions: specificQuestion.map((question) =>
             question.toObject({ getters: true })
         ),
     })
