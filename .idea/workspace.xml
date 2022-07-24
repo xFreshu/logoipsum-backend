@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da692632-4727-426c-82ff-f73e08a245a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/CardCategories/CardCategories.styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthRegister/AuthRegister.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthRegister/AuthRegister.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/topics-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/topics-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/topics-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/topics-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/http-error.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/http-error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +47,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xfreshu\Desktop\REPOSITORY\logoipsum-backend\helpers" />
       <recent name="C:\Users\xfreshu\Desktop\REPOSITORY\logoipsum-backend\models" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.start (1)">
     <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../Logoipsum/package.json" />
       <command value="run" />
@@ -101,7 +102,9 @@
       <workItem from="1658152471834" duration="3705000" />
       <workItem from="1658207054635" duration="10827000" />
       <workItem from="1658310646197" duration="6566000" />
-      <workItem from="1658468193913" duration="9529000" />
+      <workItem from="1658468193913" duration="16283000" />
+      <workItem from="1658556874068" duration="4611000" />
+      <workItem from="1658645160034" duration="2500000" />
     </task>
     <servers />
   </component>

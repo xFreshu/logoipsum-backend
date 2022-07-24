@@ -18,7 +18,7 @@ const userSchema = new Schema({
         type: String,
         required: true,
         minLength: 3,
-        unique: true,
+        // unique: true,
     },
     image: {
         type: String,
@@ -35,4 +35,4 @@ const userSchema = new Schema({
 
 userSchema.plugin(uniqueValidator)
 
-module.exports = mongoose.model('Users', userSchema)
+module.exports = mongoose.model('users', userSchema)

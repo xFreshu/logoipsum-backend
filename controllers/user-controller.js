@@ -1,5 +1,6 @@
 const Users = require('../models/users')
-const HttpError = require('../models/http-error')
+const HttpError = require('../helpers/http-error')
+const { validationResult } = require('express-validator')
 
 const getUsers = async (req, res, next) => {
     let users
@@ -45,7 +46,31 @@ const login = async (req, res, next) => {
 }
 
 const signup = async (req, res, next) => {
+    const errors = validationResult(req)
+
+    if (!errors.isEmpty()) {
+        return next(
+            new HttpError('Invalid inputs passed, please check your data.', 422)
+        )
+    }
+
     const { login, email, password } = req.body
+
+    let user
+    try {
+        user = await Users.findOne({ email: email })
+    } catch (err) {
+        return next(err)
+    }
+
+    if (user) {
+        const error = new HttpError(
+            'User exists already, please login instead.',
+            422
+        )
+        return next(error)
+    }
+
     const newUser = new Users({
         login,
         email,
@@ -53,7 +78,7 @@ const signup = async (req, res, next) => {
         image: 'https://i.pravatar.cc/300',
         questions: [],
     })
-    let user
+
     try {
         user = await newUser.save()
     } catch (err) {
