@@ -4,6 +4,7 @@ const questionsController = require('../controllers/questions-controller')
 const { check } = require('express-validator')
 
 router.get('/', questionsController.getQuestions) // get all questions
+router.get('/:id', questionsController.getQuestionsById) //get question by ID
 router.post(
     '/',
     [

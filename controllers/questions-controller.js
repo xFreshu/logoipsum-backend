@@ -17,6 +17,17 @@ const getQuestions = async (req, res, next) => {
     })
 }
 
+const getQuestionsById = async (req, res, next) => {
+    const id = req.params.id
+    let question
+    try {
+        question = await Questions.findById(id)
+    } catch (err) {
+        return next(err)
+    }
+    res.json(question.toObject({ getters: true }))
+}
+
 const createQuestion = async (req, res, next) => {
     const { name, body, creator, topic } = req.body
 
@@ -145,3 +156,4 @@ exports.updateQuestion = updateQuestion
 exports.deleteQuestion = deleteQuestion
 exports.getQuestions = getQuestions
 exports.createQuestion = createQuestion
+exports.getQuestionsById = getQuestionsById
