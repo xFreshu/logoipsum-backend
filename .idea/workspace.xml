@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da692632-4727-426c-82ff-f73e08a245a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthRegister/AuthRegister.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/AuthRegister/AuthRegister.tsx" afterDir="false" />
+    <list default="true" id="da692632-4727-426c-82ff-f73e08a245a1" name="Changes" comment="create endpoint, getQuestionById">
+      <change afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/QuestionPage/QuestionPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/Question/Question.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/components/molecules/Question/Question.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Logoipsum/src/pages/Topics/Topics.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/user-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/http-error.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/http-error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Logoipsum" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -104,8 +107,23 @@
       <workItem from="1658310646197" duration="6566000" />
       <workItem from="1658468193913" duration="16283000" />
       <workItem from="1658556874068" duration="4611000" />
-      <workItem from="1658645160034" duration="2500000" />
+      <workItem from="1658645160034" duration="7298000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed users controller, and moved http error to helpers folder">
+      <created>1658649136292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658649136292</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create endpoint, getQuestionById">
+      <created>1658653533863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658653533863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +139,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed users controller, and moved http error to helpers folder" />
+    <MESSAGE value="create endpoint, getQuestionById" />
+    <option name="LAST_COMMIT_MESSAGE" value="create endpoint, getQuestionById" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
